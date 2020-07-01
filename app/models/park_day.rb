@@ -1,0 +1,2 @@
+class ParkDay < ApplicationRecord
+end
