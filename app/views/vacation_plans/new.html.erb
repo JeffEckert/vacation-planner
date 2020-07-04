@@ -1,1 +1,8 @@
 <h2>Build a new Vacation Plan</h2>
+
+<%= form_for @vacation_plans do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    <%= f.submit "Create Vacation Plan and add Park Days." %>
+
+<% end %>
