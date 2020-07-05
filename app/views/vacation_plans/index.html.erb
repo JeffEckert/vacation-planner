@@ -1,9 +1,9 @@
 <h2>Vacation Plans</h2>
 
-<%= link_to "Create New Vacation Plan","new_vacation_plan_path" %>
+<%= link_to "Create New Vacation Plan", new_vacation_plan_path(@vacation_plan) %>
 
 <% @vacation_plans.each do |vacation_plan| %>
     <h3><%= link_to vacation_plan.name, vacation_plan_highlights_path(vacation_plan) %> </h3>
-    <p> <%= vacation_plan.highlights.count %> Park Days </p>
+    <p> <%= vacation_plan.highlights.count %> Highlights </p>
     
 <% end %>

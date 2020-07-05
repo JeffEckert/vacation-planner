@@ -2,11 +2,11 @@
 class HighlightsController < ApplicationController
 
     def index
-        get_vacation_day
+        get_highlight
     end
 
     def new
-        get_vacation_day
+        get_highlight
         @highlight =Highlight.new
     end
 
@@ -16,7 +16,7 @@ class HighlightsController < ApplicationController
 
     private
 
-    def get_vacation_day
+    def get_highlight
         @vacation_plan ||= VacationPlan.find_by(id: params[:vacation_plan_id])
     end
 
