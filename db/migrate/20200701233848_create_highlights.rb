@@ -1,4 +1,4 @@
-class CreateParkDays < ActiveRecord::Migration[6.0]
+class CreateHighlights < ActiveRecord::Migration[6.0]
   def change
     create_table :park_days do |t|
       t.integer :vacation_plan_id
