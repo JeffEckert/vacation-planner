@@ -4,6 +4,6 @@
 
 <% @vacation_plans.each do |vacation_plan| %>
     <h3><%= link_to vacation_plan.name, vacation_plan_park_day_index_path(vacation_plan) %> </h3>
-    <p> vacation_plans.park_days.count </p>
+    <p> <%= vacation_plan.park_days.count %> Park Days </p>
     
 <% end %>
