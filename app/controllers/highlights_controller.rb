@@ -1,5 +1,5 @@
 
-class ParkDaysController < ApplicationController
+clasHighlightsController < ApplicationController
 
     def index
         get_vacation_day
@@ -7,7 +7,7 @@ class ParkDaysController < ApplicationController
 
     def new
         get_vacation_day
-        @park_day =ParkDay.new
+        @highlight =Highlight.new
     end
 
     def create

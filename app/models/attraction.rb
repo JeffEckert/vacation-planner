@@ -1,4 +1,4 @@
 class Attraction < ApplicationRecord
-    has_many :park_days
-    has_many :attractions, through: :park_days
+    has_many :highlights
+    has_many :attractions, through: :highlights
 end

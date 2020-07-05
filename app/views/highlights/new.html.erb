@@ -1,6 +1,6 @@
-<h2> Add a new Park Day to the Vacation Plan - <i><%= @vacation_plan.name %></i> </h2>
+<h2> Add a new Highlight to the Vacation Plan - <i><%= @vacation_plan.name %></i> </h2>
 
-<%= form_for @park_day do |f|%>
+<%= form_for @highlight do |f|%>
     <%=f.collection_select :attraction_id, Attraction.all, :id, :name, prompt: true%>
     <%= f.label :Day_Number %>
     <%= f.number_field :day_number %>

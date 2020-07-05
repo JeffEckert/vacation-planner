@@ -1,9 +1,0 @@
-<h2>Vacation Plan <%= @vacation_plan.name %></h2>
-<%= link_to "Add New Park Day",  new_vacation_plan_park_day_path(@vacation_plan) %>
-
-<% @vacation_plan.park_days.each.with_index(1) do |park_day, index| %>
-   <h3> <%= index %><%= park_day.attraction.park %></h3>
-   <p><%= park_day.day_number %></p>
-   <p><%= park_day.notes %></p>
-
-<% end %>
