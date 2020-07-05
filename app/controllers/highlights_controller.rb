@@ -1,5 +1,5 @@
 
-clasHighlightsController < ApplicationController
+class HighlightsController < ApplicationController
 
     def index
         get_vacation_day

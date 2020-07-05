@@ -11,7 +11,7 @@ class VacationPlansController < ApplicationController
     def create
         @vacation_plans = VacationPlan.new(vacation_plan_params)
             if @vacation_plans.save
-                redirect_to new_vacation_plan_park_day_path(@vacation_plans)
+                redirect_to new_vacation_plan_highlight_path(@vacation_plans)
             else
                 render :new
             end
