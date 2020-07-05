@@ -4,9 +4,9 @@ Rails.application.routes.draw do
   resources :attractions, only: :index
 
   resources :vacation_plans, only: [:index, :new, :create] do
-    resources :park_day, only: [:index, :new]
+    resources :park_days, only: [:index, :new]
   end
 
-  resources :park_day, only: :create
+  resources :park_days, only: :create
 
 end
