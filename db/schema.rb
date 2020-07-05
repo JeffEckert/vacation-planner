@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2020_07_01_233942) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "park_days", force: :cascade do |t|
+  create_table "highlights", force: :cascade do |t|
     t.integer "vacation_plan_id"
     t.integer "attraction_id"
     t.integer "day_number"
