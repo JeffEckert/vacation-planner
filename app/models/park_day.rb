@@ -1,4 +1,4 @@
 class ParkDay < ApplicationRecord
-    belong_to :vacation_plan
-    belong_to :attractions
+    belongs_to :vacation_plan
+    belongs_to :attractions
 end
