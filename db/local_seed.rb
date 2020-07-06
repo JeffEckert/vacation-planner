@@ -1,5 +1,7 @@
 require 'json'
 Attraction.destroy_all
+Highlight.destroy_all
+VacationPlan.destroy_all
 
 
 
@@ -8,8 +10,10 @@ Attraction.destroy_all
 # end
 
 file = File.read('disney_attractions.json')
-data_hash = JSON.parse(file)
+# binding.pry
+json = JSON.parse(file)
 
-data_hash.each do |attraction_attrs|
-    Attraction.create(attraction_attrs)
+binding.pry
+json.each do |attractions_hash|
+    Attraction.create(attractions_hash = {})
 end
