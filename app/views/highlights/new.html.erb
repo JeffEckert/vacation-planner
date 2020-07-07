@@ -3,6 +3,7 @@
 <%= render partial: '/errors', locals: { record: @highlight} %>
 
 <%= form_for @highlight do |f|%>
+    <%= f.label :Attraction%>
     <div><%=f.collection_select :attraction_id, Attraction.all, :id, :name, prompt: true%></div>
     <%= f.label :Day_Number %>
     <div><%= f.number_field :day_number %></div>
