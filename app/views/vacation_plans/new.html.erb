@@ -4,7 +4,9 @@
 
 <%= form_for @vacation_plans do |f| %>
     <%= f.label :name %>
-    <%= f.text_field :name %>
+    <div><%= f.text_field :name %></div>
+    <%= f.label :vacation_description %>
+    <div><%= f.text_area :vacation_description %></div>
     <%= f.submit "Create Vacation Plan and add Highlights." %>
 
 <% end %>

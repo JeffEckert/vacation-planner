@@ -1,9 +1,9 @@
 <h2>Attractions</h2>
-<%= link_to "All Attractions", attractions_path %>
-<%= link_to "Only Magic Kingdom Attractions", attractions_magic_kingdom_path %>
-<%= link_to "Only Epcot Attractions", attractions_epcot_path %>
-<%= link_to "Only Disney's Hollywood Studios Attractions", attractions_hollywood_studios_path %>
-<%= link_to "Only Animal Kingdom Attractions", attractions_animal_kingdom_path %>
+<div><%= link_to "All Attractions", attractions_path %></div>
+<div><%= link_to "Only Magic Kingdom Attractions", attractions_magic_kingdom_path %></div>
+<div><%= link_to "Only Epcot Attractions", attractions_epcot_path %></div>
+<div><%= link_to "Only Disney's Hollywood Studios Attractions", attractions_hollywood_studios_path %></div>
+<div><%= link_to "Only Animal Kingdom Attractions", attractions_animal_kingdom_path %></div>
 
 <% @attractions.each do |attraction| %>
     <h4><%= attraction.name%></h4>
