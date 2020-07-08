@@ -7,7 +7,7 @@ class UsersController < ApplicationController
     def create
         @user = User.new(user_params)
         if @user.save
-            session[:user_id] = @user_id
+            log_in(@user)
             redirect_to new_vacation_plan_path
         else
             render :new

@@ -1,7 +1,8 @@
 class VacationPlansController < ApplicationController
 
     def index
-     @vacation_plans = VacationPlan.all
+     @user = User.find_by(id: session[:user_id])
+     @vacation_plans = current_user.vacation_plans
     end
 
     def new
@@ -9,9 +10,9 @@ class VacationPlansController < ApplicationController
     end
 
     def create
-        @vacation_plans = VacationPlan.new(vacation_plan_params)
-            if @vacation_plans.save
-                redirect_to new_vacation_plan_highlight_path(@vacation_plans)
+        @vacation_plan = current_user.vacation_plans.build(vacation_plan_params)
+            if @vacation_plan.save
+                redirect_to new_vacation_plan_highlight_path(@vacation_plan)
             else
                 render :new
             end
