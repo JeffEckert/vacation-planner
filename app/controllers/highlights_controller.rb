@@ -14,8 +14,9 @@ class HighlightsController < ApplicationController
     def create
         @vacation_plan = VacationPlan.find_by(id: params[:highlight][:vacation_plan_id])
         @highlight = Highlight.new(highlight_params)
+        @highlight.save
         if @highlight.save
-            redirect_to vacation_plan_highlights_path(highlight.vacation_plan)
+            redirect_to vacation_plan_highlights_path(@highlight.vacation_plan)
         else
             render :new
         end

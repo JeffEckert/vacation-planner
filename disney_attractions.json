@@ -1,476 +1,475 @@
-{
- "attraction": [
+ [
   {
    "name": "Astro Orbiter",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "The Barnstormer",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Big Thunder Mountain Railroad",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Buzz Lightyear's Space Ranger Spin",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Casey Jr, Splash 'N' Soak Station",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Cinderella Castle",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Country Bear Jamboree",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Dumbo the Flying Elephant",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Enchanted Tales with Belle",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Enchanted Tiki Room",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Frontierland Shootin' Arcade",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "The Hall of Presidents",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Haunted Mansion",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "It's a Small World",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Jungle Cruise",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Liberty Square Riverboat",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Mad Tea Party",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "The Magic Carpets of Aladdin",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Main Street Vehicles – Themed Area",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "The Many Adventures of Winnie the Pooh",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Mickey's PhilharMagic",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Mickey's Royal Friendship Faire stage show",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Monsters, Inc. Laugh Floor",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Peter Pan's Flight",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "A Pirate's Adventure ~ Treasures of the Seven Seas",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Pirates of the Caribbean",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Prince Charming Regal Carrousel",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Seven Dwarfs Mine Train",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Sorcerers of the Magic Kingdom[1]",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Space Mountain",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Splash Mountain",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Swiss Family Treehouse",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Tom Sawyer Island",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Tom Sawyer's boats",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Tomorrowland Speedway",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Tomorrowland Transit Authority PeopleMover",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Under the Sea ~ Journey of The Little Mermaid",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Walt Disney World Railroad",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Walt Disney's Carousel of Progress",
-   "Park": "Magic Kingdom"
+   "park": "Magic Kingdom"
   },
   {
    "name": "Advanced Training Lab",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "The American Adventure",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "American Heritage Gallery",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "Bijutsu-kan Gallery",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "Disney & Pixar Short Film Festival",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "Disney Phineas and Ferb: Agent P's World Showcase Adventure",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "Meet and Greet Anna and Elsa from Frozen",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "Gallery of Arts and History",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "Gran Fiesta Tour Starring The Three Caballeros",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "House of the Whispering Willows",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "ImageWorks: The What-If Labs",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "Impressions de France",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "Innoventions",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "Journey into Imagination with Figment",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "Kidcot Fun Stops",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "Leave A Legacy",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "Living with the Land",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "Frozen Ever After",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "Mexico Folk Art Gallery",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "Mission: SPACE",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "O Canada!",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "Project Tomorrow: Inventing the Wonders of the Future",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "Reflections of China",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "SeaBase",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "The Seas with Nemo & Friends",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "Soarin'",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "Spaceship Earth",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "Stave Church Gallery",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "Test Track",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "Turtle Talk with Crush",
-   "Park": "Epcot"
+   "park": "Epcot"
   },
   {
    "name": "Alien Swirling Saucers",
-   "Park": "Disney's Hollywood Studios"
+   "park": "Disney's Hollywood Studios"
   },
   {
    "name": "Beauty and the Beast Live on Stage",
-   "Park": "Disney's Hollywood Studios"
+   "park": "Disney's Hollywood Studios"
   },
   {
    "name": "Celebrity Spotlight",
-   "Park": "Disney's Hollywood Studios"
+   "park": "Disney's Hollywood Studios"
   },
   {
    "name": "Disney Junior - Live",
-   "Park": "Disney's Hollywood Studios"
+   "park": "Disney's Hollywood Studios"
   },
   {
    "name": "Fantasmic!",
-   "Park": "Disney's Hollywood Studios"
+   "park": "Disney's Hollywood Studios"
   },
   {
    "name": "For the First Time in Forever: A Frozen Sing-Along Celebration",
-   "Park": "Disney's Hollywood Studios"
+   "park": "Disney's Hollywood Studios"
   },
   {
    "name": "Mickey and Minnie's Runaway Railway",
-   "Park": "Disney's Hollywood Studios"
+   "park": "Disney's Hollywood Studios"
   },
   {
    "name": "Indiana Jones Epic Stunt Spectacular!",
-   "Park": "Disney's Hollywood Studios"
+   "park": "Disney's Hollywood Studios"
   },
   {
    "name": "Jedi Training: Trials of the Temple",
-   "Park": "Disney's Hollywood Studios"
+   "park": "Disney's Hollywood Studios"
   },
   {
    "name": "Lightning McQueen's Racing Academy",
-   "Park": "Disney's Hollywood Studios"
+   "park": "Disney's Hollywood Studios"
   },
   {
    "name": "Millennium Falcon Smugglers Run",
-   "Park": "Disney's Hollywood Studios"
+   "park": "Disney's Hollywood Studios"
   },
   {
    "name": "Muppet*Vision 3D",
-   "Park": "Disney's Hollywood Studios"
+   "park": "Disney's Hollywood Studios"
   },
   {
    "name": "Rise of the Resistance",
-   "Park": "Disney's Hollywood Studios"
+   "park": "Disney's Hollywood Studios"
   },
   {
    "name": "Rock 'n' Roller Coaster Starring Aerosmith",
-   "Park": "Disney's Hollywood Studios"
+   "park": "Disney's Hollywood Studios"
   },
   {
    "name": "Slinky Dog Dash",
-   "Park": "Disney's Hollywood Studios"
+   "park": "Disney's Hollywood Studios"
   },
   {
    "name": "Star Wars Launch Bay",
-   "Park": "Disney's Hollywood Studios"
+   "park": "Disney's Hollywood Studios"
   },
   {
    "name": "Star Tours: The Adventures Continue",
-   "Park": "Disney's Hollywood Studios"
+   "park": "Disney's Hollywood Studios"
   },
   {
    "name": "Star Wars: A Galactic Spectacular",
-   "Park": "Disney's Hollywood Studios"
+   "park": "Disney's Hollywood Studios"
   },
   {
    "name": "Toy Story Mania!",
-   "Park": "Disney's Hollywood Studios"
+   "park": "Disney's Hollywood Studios"
   },
   {
    "name": "The Twilight Zone Tower of Terror",
-   "Park": "Disney's Hollywood Studios"
+   "park": "Disney's Hollywood Studios"
   },
   {
    "name": "Voyage of the Little Mermaid",
-   "Park": "Disney's Hollywood Studios"
+   "park": "Disney's Hollywood Studios"
   },
   {
    "name": "Walt Disney Presents",
-   "Park": "Disney's Hollywood Studios"
+   "park": "Disney's Hollywood Studios"
   },
   {
    "name": "Affection Section",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "Avatar Flight of Passage",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "The Boneyard",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "Conservation Station",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "Cretaceous Trail",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "Dinosaur",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "Dino Sue",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "Discovery Island Trails",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "Expedition Everest: Legend of the Forbidden Mountain",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "Fossil Fun Games",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "Finding Nemo - The Musical",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "Habitat Habit!",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "It's Tough to be a Bug!",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "Kali River Rapids",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "Kilimanjaro Safaris",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "Maharajah Jungle Trek",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "Na'vi River Journey",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "The Oasis Exhibits",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "Pangani Forest Exploration Trail",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "Primeval Whirl",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "Tree of Life",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "TriceraTop Spin",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "UP! A Great Bird Adventure",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "Wild Africa Trek",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "Wilderness Explorers",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "Wildlife Express Train",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "Festival of the Lion King",
-   "Park": "Animal Kingdom"
+   "park": "Animal Kingdom"
   },
   {
    "name": "Marketplace Carousel"
@@ -513,7 +512,7 @@
   },
   {
    "name": "Official WDW website",
-   "Park": "References"
+   "park": "References"
   },
   {
    "name": "Walt Disney World attractions"
@@ -522,4 +521,3 @@
    "name": "Official WDW website"
   }
  ]
-}
