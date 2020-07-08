@@ -8,5 +8,8 @@ Rails.application.routes.draw do
   end
 
   resources :highlights, only: :create
-
+  get '/attractions/magic_kingdom', to: 'attractions#magic_kingdom'
+  get '/attractions/epcot', to: 'attractions#epcot'
+  get '/attractions/hollywood_studios', to: 'attractions#hollywood_studios'
+  get '/attractions/animal_kingdom', to: 'attractions#animal_kingdom'
 end
