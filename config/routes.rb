@@ -12,4 +12,10 @@ Rails.application.routes.draw do
   get '/attractions/epcot', to: 'attractions#epcot'
   get '/attractions/hollywood_studios', to: 'attractions#hollywood_studios'
   get '/attractions/animal_kingdom', to: 'attractions#animal_kingdom'
+
+  get '/login', to: 'sessions#new'
+  post '/login', to: 'sessions#create'
+  get '/logout', to: 'sessions#destroy'
+  get '/signup', to: 'users#new'
+  post '/signup', to: 'users#create'
 end
