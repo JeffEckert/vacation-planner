@@ -1,25 +1,28 @@
 class HighlightsController < ApplicationController
     before_action :require_login
-    before_action :validate_vacation_plan, only: [:index, :new]
+    before_action :get_vacation_plan, only: [:index, :new]
 
     def index
-        get_vacation_plan
+        redirect_if_invalid
     end
 
     def new
-        get_vacation_plan
         @highlight = Highlight.new
+       redirect_if_invalid
     end
 
     def create
         @vacation_plan = VacationPlan.find_by(id: params[:highlight][:vacation_plan_id])
+        if user_authorized?
         @highlight = Highlight.new(highlight_params)
-        if @highlight.save
-            redirect_to vacation_plan_highlights_path(@highlight.vacation_plan)
+            if @highlight.save
+                redirect_to vacation_plan_highlights_path(@highlight.vacation_plan)
+            else
+                 render :new
+            end
         else
-            render :new
+            redirect_to vacation_plans_path
         end
-
     end
 
     private
@@ -28,8 +31,14 @@ class HighlightsController < ApplicationController
         @vacation_plan ||= VacationPlan.find_by(id: params[:vacation_plan_id])
     end
 
-    def validate_vacation_plan
-        redirect_to vacation_plans_path unless get_vacation_plan
+    def user_authorized?
+        @vacation_plan.user && (@vacation_plan.user.id == current_user.id)
+    end
+
+    def redirect_if_invalid
+        if @vacation_plan.nil? || !user_authorized?
+            redirect_to vacation_plans_path
+        end
     end
 
 

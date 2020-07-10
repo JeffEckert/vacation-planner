@@ -1,4 +1,5 @@
 require 'json'
+User.destroy_all
 Attraction.destroy_all
 Highlight.destroy_all
 VacationPlan.destroy_all
