@@ -1,8 +1,8 @@
 <h2>Build a new Vacation Plan</h2>
 
-<%= render partial: '/errors', locals: { record: @vacation_plans} %>
+<%= render partial: '/errors', locals: { record: @vacation_plan} %>
 
-<%= form_for @vacation_plans do |f| %>
+<%= form_for @vacation_plan do |f| %>
     <%= f.label :name %>
     <div><%= f.text_field :name %></div>
     <%= f.label :vacation_description %>
