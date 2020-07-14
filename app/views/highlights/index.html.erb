@@ -1,8 +1,10 @@
 <h2>Vacation Plan- <i><%= @vacation_plan.name %></i></h2>
-<%= link_to "Add New Highlight",  new_vacation_plan_highlight_path(@vacation_plan) %>
+
+<div><%= link_to "Click to Add New Highlight",  new_vacation_plan_highlight_path(@vacation_plan) %></div>
+
 
 <% @vacation_plan.highlights.each.with_index(1) do |highlight, index| %>
-   <h3> <%= index %><%= highlight.attraction.name %></h3>
+   <h3><u><%= index %> <%= highlight.attraction.name %></u> </h3>
    <p><%= highlight.attraction.park %></p>
    <p><%= highlight.day_number %></p>
    <p><%= highlight.daily_notes %></p>
