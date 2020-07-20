@@ -5,7 +5,8 @@ before_action :require_login
     end
 
     def new
-        @vacation_plans = VacationPlan.new
+        # binding.pry
+        @vacation_plan = VacationPlan.new
     end
 
     def create
