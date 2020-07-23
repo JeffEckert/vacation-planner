@@ -1,0 +1,13 @@
+<h2>Attractions Results</h2>
+
+<%= form_with( url: '/attractions', method: "get") do %>
+<%= label_tag(:park, "Search for:") %>
+<%= text_field_tag(:park) %>
+<%= submit_tag("Search") %>
+<%end%>
+
+
+<% @attractions.each do |attraction| %>
+    <h4><u><%= attraction.name%></u></h4>
+    <p><%= attraction.park%></p>
+ <% end %>

@@ -1,7 +1,22 @@
 class AttractionsController < ApplicationController
 
     def index
-        @attractions = Attraction.all
+        if params[:park] != nil
+            @attractions = Attraction.where(nil)
+            @attractions = @attractions.filter_by_park(params[:park]) 
+            render :search
+        else
+            @attractions = Attraction.all
+        end
+        
+    end
+
+    def filter_by_park
+        # byebug
+        @attractions = Attraction.where(nil)
+        @attractions = @attractions.filter_by_park(params[:park]) if params[:park].present? 
+        # byebug
+        render :index
     end
 
     def magic_kingdom
@@ -23,5 +38,6 @@ class AttractionsController < ApplicationController
         @attractions = Attraction.animal_kingdom
         render :index
     end
+
 
 end
